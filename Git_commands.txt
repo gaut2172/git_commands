@@ -6,7 +6,7 @@ git init
 // create .gitignore file in the current directory
 touch .gitignore
 
-// see all files in staging area (files that will be included in the commit and files that are untracked, etc.)
+// see all files in staging area (files that will be included in the commit and files that are untracked, etc..)
 git status
 
 // add index.html file to staging area
