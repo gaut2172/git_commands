@@ -32,6 +32,9 @@ q
 // show log
 git log
 
+// show log (extended version)
+git log --online --decorate --all --graph
+
 // commit
 git commit -m 'REPLACE_WITH_COMMIT_COMMENT'
 
@@ -47,6 +50,8 @@ git rm file.txt
 // see all commits from current branch
 git log --oneline
 
+//
+
 
 
 
@@ -60,6 +65,9 @@ git checkout -b 'module1'
 
 // show current branch and all other branches
 git branch
+
+// show differences between branches
+git diff master origin/master
 
 
 
