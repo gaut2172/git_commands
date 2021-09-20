@@ -18,7 +18,8 @@ git add .
 // remove index.html file from staging area
 git rm --cached index.html
 
-
+// to see the differences between what's in the local working directory's (not yet staged changes) vs. what has been staged
+git diff
 
 
 ** Commits **
@@ -42,6 +43,9 @@ git revert 33e5a00
 
 // remove file from LOCAL machine ONLY (removes "file.txt")
 git rm file.txt
+
+// see all commits from current branch
+git log --oneline
 
 
 
